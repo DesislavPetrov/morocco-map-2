@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Morocco Map 1 </title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <meta name="description" content="Morocco Map">
+    <meta name="keywords" content="Morocco Map Leaflet">
+    <meta name="author" content="geocadder">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/leaflet.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+
+</head>
+
+
+
+<body>
+
+    <button class="trigger">View Map</button>
+    <div class="modal">
+        <div class="modal-content">
+            <div id="map"></div>
+            <div id="info">
+                <div>
+                    <div id="tour-name"><b>Discover Morocco Tours</b><span class="close-button">X</span></div>
+                    <div id="buttons"><button onclick="location.href='https://www.gateway2morocco.com/morocco-tours-discover-morocco/'" type="button" id="buttonOne"><b>View tour</b> ></button>
+                        <button onclick="location.href='https://www.gateway2morocco.com/form-view/1'" type="button"  id="buttonTwo"><b>Request a quote</b>
+                            ></button></div>
+                    <div id="destinations-title"><b>Destinations</b></div>
+                    <div class="first-item"><img src="http://geocadder.bg/en/map-morocco/images/start-points-map.PNG"><b>
+                            Casablanca (Morocco)</b></div>
+                    <div class="item"><img src="http://geocadder.bg/en/map-morocco/images/cities-points.PNG"> Rabat</div>
+                    <div class="item"><img src="http://geocadder.bg/en/map-morocco/images/cities-points.PNG"> Chefchaoun</div>
+                    <div class="item"><img src="http://geocadder.bg/en/map-morocco/images/cities-points.PNG"> Meknes</div>
+                    <div class="item"><img src="http://geocadder.bg/en/map-morocco/images/cities-points.PNG"> Fes</div>
+                    <div class="item"><img src="http://geocadder.bg/en/map-morocco/images/cities-points.PNG"> Erfoud</div>
+                    <div class="item"><img src="http://geocadder.bg/en/map-morocco/images/cities-points.PNG"> Merzouga</div>
+                    <div class="item"><img src="http://geocadder.bg/en/map-morocco/images/cities-points.PNG"> Dades
+                        Gorge</div>
+                    <div class="item"><img src="http://geocadder.bg/en/map-morocco/images/cities-points.PNG">
+                        Ouarzazate</div>
+                    <div class="last-item" id="last-item"><img src="http://geocadder.bg/en/map-morocco/images/end-points-map.PNG"><b>
+                            Marakech (Morocco)</b></div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+    <script src="data/cities-one.geojson" type="text/javascript"></script>
+    <script type="text/javascript" src="scripts/leaflet.js"></script>
+    <script type="text/javascript" src="scripts/MovingMarker.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+
+
+</body>
+
+</html>
