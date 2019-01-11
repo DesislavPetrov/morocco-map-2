@@ -1,0 +1,157 @@
+@media screen and (orientation: portrait) 
+{	.modal-content {
+    width: 50%;
+}
+}
+
+@media screen and (orientation: landscape)
+{	.modal-content {
+    width: 95%;
+}
+}
+
+@media screen and (min-width: 1000px)
+{	.modal-content {
+    width: 934px;
+}
+}
+
+@media screen and (min-width: 1200px)
+{	.modal-content {
+    width: 940px;
+}
+}
+
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 0;
+    padding:0;
+}
+.close-button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: none;
+}
+.close-button:hover {
+    background-color: darkgray;
+}
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+
+#info
+{
+	display: inline-block;
+}
+
+#tour-name {
+    padding: 14px;
+    padding-top:10px;
+    margin-top:0;
+    font-family: 'Archivo', sans-serif;
+}
+
+#info button {
+	background-color: 	#ff9900;
+color: white;
+border-radius: 4px;
+border: none;
+cursor:pointer;
+width: 136px;
+height: 40px;
+font-family: 'Archivo', sans-serif;
+}
+
+#buttons{
+    height: 45px;
+    padding: 8px;
+    border-bottom: 2px solid #f0f5f5;
+    border-top: 2px solid #f0f5f5;
+}
+
+#buttonOne {
+    float: left; 
+    margin-left:15px;   
+    margin-right: 136px;
+}
+
+#buttonTwo {
+    float: right;
+}
+
+#destinations-title{
+    padding-left:14px;
+    padding-bottom: 10px;
+    font-family: 'Archivo', sans-serif;
+}
+
+.item, .first-item, .last-item{
+    margin: 0;
+    padding-left: 14px;
+    display: flex;
+    align-items:top;
+    font-family: 'Archivo', sans-serif;
+}
+
+.item img, .first-item img{
+    height: 36px;    
+    padding-right: 6px;
+}
+
+.last-item img{
+    height: 17px;    
+    padding-right: 6px;
+}
+
+
+
+#map
+{
+position: relative;
+ width: 490px;
+ height: 467px;
+ float:left;
+}
+h1 {
+	display: none;
+}
+
+html, body {
+	height: 100%;
+	margin: 0px;	
+}
+
+main {
+	height: 100%;
+}
+
+section {
+	height: 100%;
+}
+
