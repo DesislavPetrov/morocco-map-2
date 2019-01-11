@@ -1,0 +1,170 @@
+var cities = {
+    "type": "FeatureCollection",
+    "features": [
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates": [
+             -7.590092,
+             33.572594
+          ]
+       },
+      "properties": {
+        "cityName": "Casablanca",
+        "countryName": "Morocco",
+        "iconCategory": "start-map"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -6.849886,
+            33.971550
+          ]
+       },
+      "properties": {
+        "cityName": "Rabat",
+        "countryName": "Morocco",
+        "iconCategory": "city"
+       }
+     },
+{
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.268444,
+            35.168673
+          ]
+       },
+      "properties": {
+        "cityName": "Chefchaoun",
+        "countryName": "Morocco",
+        "iconCategory": "city"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.540767,
+            33.872620
+          ]
+       },
+      "properties": {
+        "cityName": "Meknes",
+        "countryName": "Morocco",
+        "iconCategory": "city"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates": [
+             -5.008006,
+             34.017848
+          ]
+       },
+      "properties": {
+        "cityName": "Fes",
+        "countryName": "Morocco",
+        "iconCategory": "city"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates": [
+             -4.234478,
+             31.436578
+          ]
+       },
+      "properties": {
+        "cityName": "Erfoud",
+        "countryName": "Morocco",
+        "iconCategory": "city"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates": [
+             -4.013461,
+             31.080058
+          ]
+       },
+      "properties": {
+        "cityName": "Merzouga",
+        "countryName": "Morocco",
+        "iconCategory": "city"
+       }
+     },
+{
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates": [
+             -5.533190,
+             31.514472
+          ]
+       },
+      "properties": {
+        "cityName": "Tinghir",
+        "countryName": "Morocco",
+        "iconCategory": "city"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates": [
+             -5.967615,
+             31.453210
+          ]
+       },
+      "properties": {
+        "cityName": "Dades Gorge",
+        "countryName": "Morocco",
+        "iconCategory": "city"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates": [
+             -6.936862,
+             30.933385
+          ]
+       },
+      "properties": {
+        "cityName": "Ouarzazate",
+        "countryName": "Morocco",
+        "iconCategory": "city"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates": [
+             -7.981125,
+             31.629410
+          ]
+       },
+      "properties": {
+        "cityName": "Marakech",
+        "countryName": "Morocco",
+        "iconCategory": "end-map"
+       }
+     }
+  ]
+};
